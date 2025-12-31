@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    height: 200px;
+    width: 300px;
+    background-color: color-mix(in srgb, color percentage, color percentage);
+}

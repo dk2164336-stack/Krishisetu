@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import Home from './Home';
+import Register from './Register';
+import Login from './Login';
+
+import Routerpage from './Routerpage';
+import {BrowserRouter} from 'react-router-dom';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <BrowserRouter>
+    <Routerpage/>               
+    </BrowserRouter>
+ 
+);
+
+
