@@ -11,7 +11,7 @@ function Home() {
   
  async function getData(){
 
-    const response= await axios.get("http://localhost:5000/products")
+    const response= await axios.get("https://krishisetu-r48f.onrender.com/products")
     setData(response.data);
     console.log(response.data);
   }

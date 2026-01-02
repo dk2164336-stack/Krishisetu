@@ -7,7 +7,14 @@ const cors=require('cors')
 connectdb();
 
 const app = express();
-app.use(cors())
+
+
+app.use(cors({
+
+
+origin:"https://krishisetudeepika.netlify.app/"
+}));
+
 app.use(express.json())
 
 
