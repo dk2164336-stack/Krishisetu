@@ -2,7 +2,7 @@ const mongoose =require('mongoose');
 
 async function connectMongo() {
     try{
-       await mongoose.connect("mongodb+srv://Dmongodb+sreepikakumari:bZbm6PK9L8A84Kw4@cluster0.5u0v0ps.mongodb.net/Krishisetu?appName=Cluster0"),{
+       await mongoose.connect("mongodb+srv://Deepikakumari:Pns0MTVECCg5O8AN@cluster0.5u0v0ps.mongodb.net/Krishisetu?appName=Cluster0"),{
             useNewUrlParser:true,
             useUnifiedTopology:true
           }
