@@ -12,7 +12,7 @@ const app = express();
 app.use(cors({
 
 
-origin:"https://krishisetudeepika.netlify.app/"
+origin:"https://krishisetudeepika.netlify.app"
 }));
 
 app.use(express.json())
